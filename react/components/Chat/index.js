@@ -6,7 +6,7 @@ const Chat = () => {
   const [bubble, setBubble] = useState(true);
 
   const handleClick = (e) => {
-    MyG2C.API.chatAsk("Solicitud de ayuda.", 10);
+    startNeoWebChat()
   }
 
   return (
