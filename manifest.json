@@ -1,7 +1,7 @@
 {
   "vendor": "simanqagt",
   "name": "chat-gtqa",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "builders": {
     "store": "0.x",
     "react": "3.x"
