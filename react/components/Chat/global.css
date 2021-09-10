@@ -27,3 +27,37 @@
     background-image: url(https://siman.vtexassets.com/arquivos/chat-image.png);
     }
 }
+
+/* CHAT NEOTEL */
+.WEBCHATTITLE{
+    color:White;
+    width:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    text-align:center;
+    font-family:'Open Sans, Arial, sans-serif';
+    font-weight:normal;
+    font-size:20px;
+    margin-top:2px;
+}	
+
+
+#cntNeoWebChat, #cntNeoCallBack
+{
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+#cntNeoWebChat>div, #cntNeoCallBack>div {
+   border-top-right-radius: 8px;
+   border-top-left-radius: 8px;
+   border-bottom-color: white;
+   margin-top: 20px;
+   height: 0px;
+}
+
+.NEOTELBUTTON{
+    cursor:hand;
+    cursor:pointer;
+}
