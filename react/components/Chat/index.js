@@ -6,7 +6,12 @@ import './global.css';
 
 const Chat = () => {
 
-  const handleClick = (e) => startNeoWebChat()
+  const handleClick = (e) => {
+    startNeoWebChat()
+    const enLinea = '<div class="span-foco"></div><div class="en-linea">En linea </div>'
+    document.querySelector('.WEBCHATTITLE').insertAdjacentHTML('afterend',enLinea)
+  }
+
 
   return (
     <div>
@@ -22,7 +27,7 @@ const Chat = () => {
                     $(document).ready(function () {
                         console.log('entrando')
                         let externalKey = "";
-                        initWebChat("https","35.196.4.210", "CHAT", "3Hlser5a8Z21YCaDH2Ph49WcEWrLNKhZ1TFBu8gWjJTzd/PFTjEF06ddrdS7vBEzpBWtzvYICeN6mC8yN2lCkCyHNs/N58dZAbHlxW2G8pOBhRTStyIWSAzIxM4SOeGzo2PWnXAh3PKG0ct3eczIVinxuc5OHDrjhbouC+Oo3Hi5OtfWF3v/Ng==", "CHAT SALVADOR", "#C71616", "448", "401", "3", externalKey);
+                        initWebChat("https","35.196.4.210", "CHAT", "3Hlser5a8Z21YCaDH2Ph49WcEWrLNKhZ1TFBu8gWjJTzd/PFTjEF06ddrdS7vBEzpBWtzvYICeN6mC8yN2lCkCyHNs/N58dZAbHlxW2G8pOBhRTStyIWSAzIxM4SOeGzo2PWnXAh3PKG0ct3eczIVinxuc5OHDrjhbouC+Oo3Hi5OtfWF3v/Ng==", "¿Necesitas ayuda?", "#C71616", "448", "401", "3", externalKey);
                         console.log('dentro de ')
                     });
                     `}
