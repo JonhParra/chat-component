@@ -8,8 +8,10 @@ const Chat = () => {
 
   const handleClick = (e) => {
     startNeoWebChat()
-    const enLinea = '<div class="span-foco"></div><div class="en-linea">En linea </div>'
-    document.querySelector('.WEBCHATTITLE').insertAdjacentHTML('afterend',enLinea)
+    if(document.querySelector('.span-foco') === null){
+      const enLinea = '<div class="span-foco"></div><div class="en-linea">En linea </div>'
+      document.querySelector('.WEBCHATTITLE').insertAdjacentHTML('afterend',enLinea)
+    }
   }
 
   return (
