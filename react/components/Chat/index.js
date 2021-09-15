@@ -26,10 +26,8 @@ const Chat = () => {
                 <script type='text/javascript' language='javascript'>
                     {`
                     $(document).ready(function () {
-                        console.log('entrando')
                         let externalKey = "";
                         initWebChat("https","35.196.4.210", "CHAT", "3Hlser5a8Z21YCaDH2Ph49WcEWrLNKhZ1TFBu8gWjJTzd/PFTjEF06ddrdS7vBEzpBWtzvYICeNv5fekUXThV15ifaZgtTpne7ZdjYMGXqBRRBJDaIa9de2FGH1L4voJ2iDpzPLSju1aPkXOJGzyPeqwcfjGj+1yU5iHvH4GOZNdqR+zyLBs5g==", "¿Necesitas ayuda?", "#C71616", "448", "401", "3", externalKey);
-                        console.log('dentro de la funcion')
                     });
                     `}
                 </script>
