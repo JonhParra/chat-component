@@ -1,4 +1,3 @@
-
 .float{
     position: fixed;
     top: 90% !important;
@@ -34,7 +33,7 @@
     color:White;
     width:100%;
     position:absolute;
-    top:0px;
+    top:6px;
     left:0px;
     text-align:left;
     font-family:'Open Sans, Arial, sans-serif';
@@ -46,7 +45,7 @@
 
 .en-linea{
     color: rgb(163, 162, 162);
-    margin-top: 9%;
+    margin-top: 11%;
     margin-left: 1%;
     font-size: .8rem;
     display: inline-block;
@@ -60,7 +59,7 @@
     -webkit-border-radius: 50px;
     border-radius: 50px;
     display: inline-block;
-    margin-left: 7%;
+    margin-left: 6.5%;
 }
 
 
@@ -90,17 +89,28 @@
 #iframeWebChat{
     width: calc(335px) !important;
     height: 56vh !important;
+    border: .3px solid rgba(160, 156, 156, .4) !important;
+    box-sizing: border-box;
 }
 
 #Div1{
-    width: 73% !important;
+    width: calc(335px) !important;
     background-color: #A93239 !important;
     height: 60px !important;
     z-index: 1 !important;
 }
 
 #grdWebChatMsg_cnt_rows{
-    background-color: white !important;
     height: 287px !important;
     top: 26px;
+}
+
+@media(max-width: 600px){    
+    #iframeWebChat{
+        width: calc(360px) !important;
+        height: 79vh !important;
+    }
+    #Div1{
+        width: calc(360px) !important;
+    }
 }
